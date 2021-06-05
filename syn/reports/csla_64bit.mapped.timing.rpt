@@ -1,0 +1,159 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : csla_64bit
+Version: I-2013.12-SP5-5
+Date   : Sat Jun  5 20:18:01 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port clocked by VCLK)
+  Endpoint: sum[53] (output port clocked by VCLK)
+  Path Group: FEEDTHROUGH
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  csla_64bit         5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock VCLK (rise edge)                                            0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  input external delay                                              1.00       1.00 f
+  a[0] (in)                                               0.10      0.00       1.00 f
+  a[0] (net)                                    2                   0.00       1.00 f
+  bitNRCAdder1_i1/add1[0] (bitNRCAdder_N4_0)                        0.00       1.00 f
+  bitNRCAdder1_i1/add1[0] (net)                                     0.00       1.00 f
+  bitNRCAdder1_i1/U1/ZN (XNOR2_X1)                        0.04      0.21       1.21 f
+  bitNRCAdder1_i1/p[0] (net)                    2                   0.00       1.21 f
+  bitNRCAdder1_i1/block_0__bit1adder_module/p (bit1adder_0)         0.00       1.21 f
+  bitNRCAdder1_i1/block_0__bit1adder_module/p (net)                 0.00       1.21 f
+  bitNRCAdder1_i1/block_0__bit1adder_module/U2/ZN (AOI21_X1)     0.09     0.14     1.35 r
+  bitNRCAdder1_i1/block_0__bit1adder_module/n1 (net)     1          0.00       1.35 r
+  bitNRCAdder1_i1/block_0__bit1adder_module/U1/ZN (INV_X1)     0.03     0.06     1.41 f
+  bitNRCAdder1_i1/block_0__bit1adder_module/count (net)     2       0.00       1.41 f
+  bitNRCAdder1_i1/block_0__bit1adder_module/count (bit1adder_0)     0.00       1.41 f
+  bitNRCAdder1_i1/c_mid[1] (net)                                    0.00       1.41 f
+  bitNRCAdder1_i1/block_1__bit1adder_module/cin (bit1adder_123)     0.00       1.41 f
+  bitNRCAdder1_i1/block_1__bit1adder_module/cin (net)               0.00       1.41 f
+  bitNRCAdder1_i1/block_1__bit1adder_module/U2/ZN (AOI21_X1)     0.09     0.12     1.53 r
+  bitNRCAdder1_i1/block_1__bit1adder_module/n3 (net)     1          0.00       1.53 r
+  bitNRCAdder1_i1/block_1__bit1adder_module/U4/ZN (INV_X1)     0.03     0.07     1.59 f
+  bitNRCAdder1_i1/block_1__bit1adder_module/count (net)     2       0.00       1.59 f
+  bitNRCAdder1_i1/block_1__bit1adder_module/count (bit1adder_123)     0.00     1.59 f
+  bitNRCAdder1_i1/c_mid[2] (net)                                    0.00       1.59 f
+  bitNRCAdder1_i1/block_2__bit1adder_module/cin (bit1adder_122)     0.00       1.59 f
+  bitNRCAdder1_i1/block_2__bit1adder_module/cin (net)               0.00       1.59 f
+  bitNRCAdder1_i1/block_2__bit1adder_module/U1/ZN (AOI21_X2)     0.07     0.11     1.70 r
+  bitNRCAdder1_i1/block_2__bit1adder_module/n3 (net)     1          0.00       1.70 r
+  bitNRCAdder1_i1/block_2__bit1adder_module/U4/ZN (INV_X1)     0.02     0.06     1.76 f
+  bitNRCAdder1_i1/block_2__bit1adder_module/count (net)     2       0.00       1.76 f
+  bitNRCAdder1_i1/block_2__bit1adder_module/count (bit1adder_122)     0.00     1.76 f
+  bitNRCAdder1_i1/c_mid[3] (net)                                    0.00       1.76 f
+  bitNRCAdder1_i1/block_3__bit1adder_module/cin (bit1adder_121)     0.00       1.76 f
+  bitNRCAdder1_i1/block_3__bit1adder_module/cin (net)               0.00       1.76 f
+  bitNRCAdder1_i1/block_3__bit1adder_module/U2/ZN (AOI21_X2)     0.07     0.10     1.87 r
+  bitNRCAdder1_i1/block_3__bit1adder_module/n3 (net)     1          0.00       1.87 r
+  bitNRCAdder1_i1/block_3__bit1adder_module/U4/ZN (INV_X1)     0.02     0.06     1.93 f
+  bitNRCAdder1_i1/block_3__bit1adder_module/count (net)     3       0.00       1.93 f
+  bitNRCAdder1_i1/block_3__bit1adder_module/count (bit1adder_121)     0.00     1.93 f
+  bitNRCAdder1_i1/cout (net)                                        0.00       1.93 f
+  bitNRCAdder1_i1/cout (bitNRCAdder_N4_0)                           0.00       1.93 f
+  selected_c[0] (net)                                               0.00       1.93 f
+  bitNmux_i2/sel (bitNmux_N4)                                       0.00       1.93 f
+  bitNmux_i2/sel (net)                                              0.00       1.93 f
+  bitNmux_i2/U2/ZN (AOI22_X1)                             0.10      0.17       2.10 r
+  bitNmux_i2/n11 (net)                          1                   0.00       2.10 r
+  bitNmux_i2/U1/ZN (INV_X1)                               0.03      0.07       2.17 f
+  bitNmux_i2/ou1[0] (net)                       3                   0.00       2.17 f
+  bitNmux_i2/ou1[0] (bitNmux_N4)                                    0.00       2.17 f
+  selected_c[1] (net)                                               0.00       2.17 f
+  bitNmux_i3/sel (bitNmux_N5)                                       0.00       2.17 f
+  bitNmux_i3/sel (net)                                              0.00       2.17 f
+  bitNmux_i3/U3/ZN (AOI22_X1)                             0.10      0.18       2.35 r
+  bitNmux_i3/n3 (net)                           1                   0.00       2.35 r
+  bitNmux_i3/U2/ZN (INV_X1)                               0.03      0.06       2.41 f
+  bitNmux_i3/ou1[0] (net)                       2                   0.00       2.41 f
+  bitNmux_i3/ou1[0] (bitNmux_N5)                                    0.00       2.41 f
+  selected_c[2] (net)                                               0.00       2.41 f
+  bitNmux_i4/sel (bitNmux_N6)                                       0.00       2.41 f
+  bitNmux_i4/sel (net)                                              0.00       2.41 f
+  bitNmux_i4/U1/ZN (AOI22_X1)                             0.10      0.19       2.60 r
+  bitNmux_i4/n15 (net)                          1                   0.00       2.60 r
+  bitNmux_i4/U2/ZN (INV_X1)                               0.03      0.06       2.66 f
+  bitNmux_i4/ou1[0] (net)                       2                   0.00       2.66 f
+  bitNmux_i4/ou1[0] (bitNmux_N6)                                    0.00       2.66 f
+  selected_c[3] (net)                                               0.00       2.66 f
+  bitNmux_i5/sel (bitNmux_N7)                                       0.00       2.66 f
+  bitNmux_i5/sel (net)                                              0.00       2.66 f
+  bitNmux_i5/U2/ZN (AOI22_X1)                             0.10      0.17       2.84 r
+  bitNmux_i5/n17 (net)                          1                   0.00       2.84 r
+  bitNmux_i5/U12/ZN (INV_X1)                              0.03      0.06       2.90 f
+  bitNmux_i5/ou1[0] (net)                       2                   0.00       2.90 f
+  bitNmux_i5/ou1[0] (bitNmux_N7)                                    0.00       2.90 f
+  selected_c[4] (net)                                               0.00       2.90 f
+  bitNmux_i6/sel (bitNmux_N8)                                       0.00       2.90 f
+  bitNmux_i6/sel (net)                                              0.00       2.90 f
+  bitNmux_i6/U22/ZN (AOI22_X1)                            0.10      0.17       3.07 r
+  bitNmux_i6/n19 (net)                          1                   0.00       3.07 r
+  bitNmux_i6/U1/ZN (INV_X1)                               0.03      0.07       3.14 f
+  bitNmux_i6/ou1[0] (net)                       3                   0.00       3.14 f
+  bitNmux_i6/ou1[0] (bitNmux_N8)                                    0.00       3.14 f
+  selected_c[5] (net)                                               0.00       3.14 f
+  bitNmux_i7/sel (bitNmux_N9)                                       0.00       3.14 f
+  bitNmux_i7/sel (net)                                              0.00       3.14 f
+  bitNmux_i7/U5/ZN (AOI22_X1)                             0.10      0.17       3.31 r
+  bitNmux_i7/n21 (net)                          1                   0.00       3.31 r
+  bitNmux_i7/U4/ZN (INV_X1)                               0.03      0.07       3.38 f
+  bitNmux_i7/ou1[0] (net)                       3                   0.00       3.38 f
+  bitNmux_i7/ou1[0] (bitNmux_N9)                                    0.00       3.38 f
+  selected_c[6] (net)                                               0.00       3.38 f
+  bitNmux_i8/sel (bitNmux_N10)                                      0.00       3.38 f
+  bitNmux_i8/sel (net)                                              0.00       3.38 f
+  bitNmux_i8/U5/ZN (AOI22_X1)                             0.10      0.17       3.56 r
+  bitNmux_i8/n23 (net)                          1                   0.00       3.56 r
+  bitNmux_i8/U3/ZN (INV_X1)                               0.03      0.06       3.61 f
+  bitNmux_i8/ou1[0] (net)                       2                   0.00       3.61 f
+  bitNmux_i8/ou1[0] (bitNmux_N10)                                   0.00       3.61 f
+  selected_c[7] (net)                                               0.00       3.61 f
+  bitNmux_i9/sel (bitNmux_N11)                                      0.00       3.61 f
+  bitNmux_i9/sel (net)                                              0.00       3.61 f
+  bitNmux_i9/U2/Z (BUF_X2)                                0.04      0.13       3.75 f
+  bitNmux_i9/n2 (net)                          12                   0.00       3.75 f
+  bitNmux_i9/U30/ZN (AOI22_X1)                            0.10      0.20       3.95 r
+  bitNmux_i9/n22 (net)                          1                   0.00       3.95 r
+  bitNmux_i9/U9/ZN (INV_X1)                               0.02      0.04       3.99 f
+  bitNmux_i9/ou1[1] (net)                       1                   0.00       3.99 f
+  bitNmux_i9/ou1[1] (bitNmux_N11)                                   0.00       3.99 f
+  sum[53] (net)                                                     0.00       3.99 f
+  sum[53] (out)                                           0.02      0.01       4.00 f
+  data arrival time                                                            4.00
+
+  clock VCLK (rise edge)                                            5.00       5.00
+  clock network delay (ideal)                                       0.00       5.00
+  output external delay                                            -1.00       4.00
+  data required time                                                           4.00
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           4.00
+  data arrival time                                                           -4.00
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                  0.00
+
+
+1

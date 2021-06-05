@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : csla_64bit
+Version: I-2013.12-SP5-5
+Date   : Sat Jun  5 20:18:01 2021
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/ee.ust.hk/staff/ee/dept/public/elec516/eesm_5020_2017spring/eesm_5020/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.db)
+
+Number of ports:                          194
+Number of nets:                           340
+Number of cells:                           25
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                      25
+
+Combinational area:                874.607996
+Buf/Inv area:                      121.296001
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   874.607996
+Total area:                 undefined
+1

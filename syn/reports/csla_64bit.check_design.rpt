@@ -1,0 +1,46 @@
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12-SP5-5
+Date:        Sat Jun  5 20:17:54 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              16
+    Connected to power or ground (LINT-32)                         16
+--------------------------------------------------------------------------------
+
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder1_i9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 0. 
+Warning: In design 'csla_64bit', a pin on submodule 'bitNRCAdder2_i9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'cin' is connected to logic 1. 
+1
